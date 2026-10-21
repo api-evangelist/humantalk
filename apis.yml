@@ -1,23 +1,60 @@
 aid: humantalk
+
 name: HumanPal.io
-description: 'HumanPal.io is a company surfaced via the API Evangelist harvest backlog (source: g2-catalog)
-  and added to the network as a stub for full-pipeline profiling.'
+
+image: https://humantalk.io/yes/assets/images/client.png
+
+description: 'HumanPal.io (operating as HumanTalk) offers an AI-powered content creation platform that provides unlimited text generation, multilingual text‑to‑speech with over 800 realistic voice clones, and tools for rewriting, summarizing, and translating content. The service is marketed as a one‑time purchase with no recurring fees, targeting creators, marketers, and businesses seeking high‑quality, emotionally expressive AI voices and automated script writing. Features include AI‑generated scripts, voice demos, and a suite of tools for SEO‑optimized content, all delivered via a web interface.'
+
 url: https://raw.githubusercontent.com/api-evangelist/humantalk/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:g2-catalog
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-20 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-20'
+
 modified: '2026-10-20'
+
 tags:
-- Company
-apis: []
+- AI
+- Content Generation
+- Text-to-Speech
+- Marketing
+- SaaS
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: Hosts
+  url: hosts/humantalk-hosts.yml
+- type: DomainSecurity
+  url: security/humantalk-domain-security.yml
 - type: Website
   url: https://humantalk.io/
+
+- type: Support
+  url: https://humantalk.io/support/
+- type: TermsOfService
+  url: https://humantalk.io/terms/terms.php
+- type: PrivacyPolicy
+  url: https://humantalk.io/terms/privacy.php
+- type: Documentation
+  url: https://humantalk.io/tutorials/
+
+apis: []
+x-enrichment:
+  date: '2026-10-20'
+  status: enriched
+  artifacts_added: 7
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

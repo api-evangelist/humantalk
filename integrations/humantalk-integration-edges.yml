@@ -1,0 +1,18 @@
+generated: '2026-10-20'
+method: none
+source:
+- https://zapier.com/apps/humantalk/integrations
+- https://zapier.com/apps/humanpal-io/integrations
+- https://n8n.io/integrations/humantalk/
+- https://composio.dev/toolkits/humantalk
+- https://monid.ai/tools/humantalk
+checked:
+- https://composio.dev/toolkits/humantalk
+- https://monid.ai/tools/humantalk
+- https://n8n.io/integrations/humantalk/
+- https://zapier.com/apps/humanpal-io/integrations
+- https://zapier.com/apps/humantalk/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
